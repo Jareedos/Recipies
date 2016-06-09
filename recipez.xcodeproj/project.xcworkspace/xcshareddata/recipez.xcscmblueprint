@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A6E70AB5DAD4189687277994F92BF003FB23DC46",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A6E70AB5DAD4189687277994F92BF003FB23DC46" : 0,
+    "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "46988187-73F6-4FCA-B32B-0CD80BE833CD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A6E70AB5DAD4189687277994F92BF003FB23DC46" : "recipez\/",
+    "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "recipez",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "recipez.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jareedos\/Recipies.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6E70AB5DAD4189687277994F92BF003FB23DC46"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jareedos\/myCity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364"
+    }
+  ]
+}

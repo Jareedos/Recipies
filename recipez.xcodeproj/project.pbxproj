@@ -13,6 +13,8 @@
 		BF221A751D08ED2600C2B4BB /* recipez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF221A731D08ED2600C2B4BB /* recipez.xcdatamodeld */; };
 		BF221A771D08ED2600C2B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF221A761D08ED2600C2B4BB /* Assets.xcassets */; };
 		BF221A7A1D08ED2600C2B4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF221A781D08ED2600C2B4BB /* LaunchScreen.storyboard */; };
+		BF221A8C1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF221A8A1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift */; };
+		BF221A8D1D09255D00C2B4BB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF221A8B1D09255D00C2B4BB /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF221A761D08ED2600C2B4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF221A791D08ED2600C2B4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF221A7B1D08ED2600C2B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF221A8A1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BF221A8B1D09255D00C2B4BB /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +64,7 @@
 				BF221A821D09243000C2B4BB /* View */,
 				BF221A811D09241A00C2B4BB /* Model */,
 				BF221A6C1D08ED2600C2B4BB /* AppDelegate.swift */,
-				BF221A6E1D08ED2600C2B4BB /* ViewController.swift */,
-				BF221A701D08ED2600C2B4BB /* Main.storyboard */,
 				BF221A761D08ED2600C2B4BB /* Assets.xcassets */,
-				BF221A781D08ED2600C2B4BB /* LaunchScreen.storyboard */,
 				BF221A7B1D08ED2600C2B4BB /* Info.plist */,
 				BF221A731D08ED2600C2B4BB /* recipez.xcdatamodeld */,
 			);
@@ -73,6 +74,8 @@
 		BF221A811D09241A00C2B4BB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF221A8A1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift */,
+				BF221A8B1D09255D00C2B4BB /* Recipe.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -80,6 +83,8 @@
 		BF221A821D09243000C2B4BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF221A701D08ED2600C2B4BB /* Main.storyboard */,
+				BF221A781D08ED2600C2B4BB /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 		BF221A831D09243900C2B4BB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF221A6E1D08ED2600C2B4BB /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -164,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF221A6F1D08ED2600C2B4BB /* ViewController.swift in Sources */,
+				BF221A8C1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift in Sources */,
 				BF221A6D1D08ED2600C2B4BB /* AppDelegate.swift in Sources */,
 				BF221A751D08ED2600C2B4BB /* recipez.xcdatamodeld in Sources */,
+				BF221A8D1D09255D00C2B4BB /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +288,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = recipez/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JaredSobol.recipez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -291,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = recipez/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JaredSobol.recipez;
