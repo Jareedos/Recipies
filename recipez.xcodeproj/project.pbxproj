@@ -56,6 +56,9 @@
 		BF221A6B1D08ED2600C2B4BB /* recipez */ = {
 			isa = PBXGroup;
 			children = (
+				BF221A831D09243900C2B4BB /* Controller */,
+				BF221A821D09243000C2B4BB /* View */,
+				BF221A811D09241A00C2B4BB /* Model */,
 				BF221A6C1D08ED2600C2B4BB /* AppDelegate.swift */,
 				BF221A6E1D08ED2600C2B4BB /* ViewController.swift */,
 				BF221A701D08ED2600C2B4BB /* Main.storyboard */,
@@ -65,6 +68,27 @@
 				BF221A731D08ED2600C2B4BB /* recipez.xcdatamodeld */,
 			);
 			path = recipez;
+			sourceTree = "<group>";
+		};
+		BF221A811D09241A00C2B4BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BF221A821D09243000C2B4BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BF221A831D09243900C2B4BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
