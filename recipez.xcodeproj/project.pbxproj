@@ -15,6 +15,7 @@
 		BF221A7A1D08ED2600C2B4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF221A781D08ED2600C2B4BB /* LaunchScreen.storyboard */; };
 		BF221A8C1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF221A8A1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift */; };
 		BF221A8D1D09255D00C2B4BB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF221A8B1D09255D00C2B4BB /* Recipe.swift */; };
+		BF221A8F1D0A315A00C2B4BB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF221A8E1D0A315A00C2B4BB /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BF221A7B1D08ED2600C2B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF221A8A1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BF221A8B1D09255D00C2B4BB /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		BF221A8E1D0A315A00C2B4BB /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				BF221A701D08ED2600C2B4BB /* Main.storyboard */,
 				BF221A781D08ED2600C2B4BB /* LaunchScreen.storyboard */,
+				BF221A8E1D0A315A00C2B4BB /* RecipeCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				BF221A6F1D08ED2600C2B4BB /* ViewController.swift in Sources */,
 				BF221A8C1D09255D00C2B4BB /* Recipe+CoreDataProperties.swift in Sources */,
 				BF221A6D1D08ED2600C2B4BB /* AppDelegate.swift in Sources */,
+				BF221A8F1D0A315A00C2B4BB /* RecipeCell.swift in Sources */,
 				BF221A751D08ED2600C2B4BB /* recipez.xcdatamodeld in Sources */,
 				BF221A8D1D09255D00C2B4BB /* Recipe.swift in Sources */,
 			);
